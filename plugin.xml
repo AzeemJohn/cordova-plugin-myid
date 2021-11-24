@@ -4,21 +4,21 @@
         xmlns:android="http://schemas.android.com/apk/res/android">
     <name>YourPluginName</name>
 
-    <js-module name="YourPluginName" src="www/YourPluginName.js">
-        <clobbers target="YourPluginName" />
+    <js-module name="CordovaPluginMyid" src="www/myid.js">
+        <clobbers target="CordovaPluginMyid" />
     </js-module>
 
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
 
-            <feature name="YourPluginName">
-                <param name="ios-package" value="YourPluginName" />
+            <feature name="CordovaPluginMyid">
+                <param name="ios-package" value="CordovaPluginMyid" />
             </feature>
 
         </config-file>
 
         <!-- Add in the plugin .swift files here -->
-        <source-file src="src/ios/YourPluginName.swift" />
+        <source-file src="src/ios/myid.swift" />
 
         <!-- Add in the swift-support plugin by default -->
         <dependency id="cordova-plugin-add-swift-support" version="1.7.2"/>
