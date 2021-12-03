@@ -1,11 +1,10 @@
-
 /*
 * Notes: The @objc shows that this class & function should be exposed to Cordova.
 */
 @objc(CordovaPluginMyid) class CordovaPluginMyid : CDVPlugin {
-  @objc(yourFunctionName:) // Declare your function name.
-  func yourFunctionName(command: CDVInvokedUrlCommand) { // write the function code.
-    /* 
+  @objc(test:) // Declare your function name.
+  func test(command: CDVInvokedUrlCommand) { // write the function code.
+    /*
      * Always assume that the plugin will fail.
      * Even if in this example, it can't.
      */
@@ -17,3 +16,4 @@
     self.commandDelegate!.send(pluginResult, callbackId: command.callbackId);
   }
 }
+
