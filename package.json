@@ -4,11 +4,11 @@
   "description": "Cordova Plugin for myID", // What you want the desc to say.
   "cordova": {
     "id": "cordova-plugin-myid", // same as your Github Repo.
-    "platforms": [ // The platforms you're targeting. 
+    "platforms": [ // The platforms you're targeting.
       "ios" // We're only targeting IOS for this tutorial.
     ]
   },
-  "keywords": [ // Keywords that your plugin will be searched by. 
+  "keywords": [ // Keywords that your plugin will be searched by.
     "cordova",
     "camera",
     "ecosystem:cordova",
