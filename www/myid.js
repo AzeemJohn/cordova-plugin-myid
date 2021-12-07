@@ -10,7 +10,7 @@ var exec = require('cordova/exec');
 //exports.createWallet = function(agr0, success, error) {
 // exec(success, error, "CordovaPluginMyid", "test", [agr0];
 
- CordovaPluginMyid.yourFunctionName = function(onSuccess, onError) {
+ CordovaPluginMyid.test = function(onSuccess, onError) {
     exec(onSuccess, onError, PLUGIN_NAME, "test", [agr0]);
  };
  module.exports = CordovaPluginMyid;
