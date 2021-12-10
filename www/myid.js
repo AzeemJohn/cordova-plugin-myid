@@ -13,5 +13,5 @@ var exec = require('cordova/exec');
  CordovaPluginMyid.test = function(onSuccess, onError) {
     exec(onSuccess, onError, PLUGIN_NAME, "test", [agr0]);
  };
- module.exports = CordovaPluginMyid;
 };
+module.exports = CordovaPluginMyid;
