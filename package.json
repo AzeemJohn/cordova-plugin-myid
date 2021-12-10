@@ -1,19 +1,19 @@
 {
-  "name": "CordovaPluginMyid",
-  "version": "0.0.1",
-  "description": "Cordova Plugin for myID",
-  "cordova": {
-    "id": "cordova-plugin-myid",
-    "platforms": [ 
-      "ios"
-    ]
-  },
-  "keywords": [
-    "cordova",
-    "camera",
-    "ecosystem:cordova",
-    "cordova-ios",
-  ],
-  "author": "AzeemJohn",
-  "license": "MIT"
-}
+    "name": "CordovaPluginMyid",
+    "version": "0.0.1",
+    "description": "Cordova Plugin for myID",
+    "cordova": {
+      "id": "cordova-plugin-myid",
+      "platforms": [ 
+        "ios"
+      ]
+    },
+    "keywords": [
+      "cordova",
+      "camera",
+      "ecosystem:cordova",
+      "cordova-ios"
+    ],
+    "author": "AzeemJohn",
+    "license": "MIT"
+  }
