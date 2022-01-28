@@ -10,7 +10,7 @@ class ViewController: UIViewController {
     @IBAction func login(_ sender: Any) {
         var urlComps = URLComponents(string: "https://myid.uz/api/v1/oauth2/authorization")!
         let queryItems = [
-            URLQueryItem(name: "client_id", value: YOU_CLINET_ID),
+            URLQueryItem(name: "client_id", value: "ofb_mobile_sdk-I6j6zGazwM5ile6VjV0v5b4JYY2NtLPvmRBAkD12"),
             URLQueryItem(name: "redirect_uri", value: "uzinfocom://bank"),
             URLQueryItem(name: "response_type", value: "code"),
             URLQueryItem(name: "method", value: authTypeSwitch.isOn ? "strong" : "simple"),
@@ -19,6 +19,10 @@ class ViewController: UIViewController {
         
         urlComps.queryItems = queryItems
         
-        UIApplication.shared.open(urlComps.url!)
+        if #available(iOS 10.0, *) {
+            UIApplication.shared.open(urlComps.url!)
+        } else {
+            // Fallback on earlier versions
+        }
     }
 }
